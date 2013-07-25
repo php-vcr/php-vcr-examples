@@ -1,0 +1,22 @@
+{
+    "name": "adri/php-vcr-examples",
+    "authors": [
+        {
+            "name": "Adrian Philipp",
+            "email": "mail@adrian-philipp.com"
+        }
+    ],
+
+    "minimum-stability": "dev",
+
+    "require": {
+        "php": ">=5.3.3",
+        "phpunit/phpunit": "3.8.*@dev",
+        "adri/php-vcr": "dev-master",
+        "adri/phpunit-testlistener-vcr": "dev-master"
+    },
+
+    "autoload":     {
+        "classmap": ["guzzle/src/Adri"]
+    }
+}
