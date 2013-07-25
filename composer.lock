@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "63d65ffa2040b4f1ccf207f1135b57da",
+    "hash": "4fc965fd81fe4551036923d0063423cd",
     "packages": [
         {
             "name": "adri/php-vcr",
@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/adri/php-vcr.git",
-                "reference": "8c308428984953b02182c5a416853ad01704f2f3"
+                "reference": "392613d3d1777e49242611f633e1763171124f63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/adri/php-vcr/zipball/8c308428984953b02182c5a416853ad01704f2f3",
-                "reference": "8c308428984953b02182c5a416853ad01704f2f3",
+                "url": "https://api.github.com/repos/adri/php-vcr/zipball/392613d3d1777e49242611f633e1763171124f63",
+                "reference": "392613d3d1777e49242611f633e1763171124f63",
                 "shasum": ""
             },
             "require": {
@@ -53,7 +53,7 @@
                 }
             ],
             "description": "Record your test suite's HTTP interactions and replay them during future test runs for fast, deterministic, accurate tests.",
-            "time": "2013-07-23 19:00:01"
+            "time": "2013-07-25 14:00:09"
         },
         {
             "name": "adri/phpunit-testlistener-vcr",

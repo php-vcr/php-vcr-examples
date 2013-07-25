@@ -16,7 +16,7 @@ class GithubProjectGuzzleTest extends \PHPUnit_Framework_TestCase
     public function testGithubInfoForExistingProject()
     {
         $githubProject = new GithubProjectGuzzle('adri/php-vcr');
-        $info = $githubProject ->getInfo();
+        $info = $githubProject->getInfo();
 
         $this->assertTrue(is_array($info), 'Response is not an array.');
         $this->assertArrayHasKey('full_name', $info, "Key 'full_name' not found.");
@@ -31,7 +31,7 @@ class GithubProjectGuzzleTest extends \PHPUnit_Framework_TestCase
     public function testGithubInfoForNonExistingProject()
     {
         $githubProject = new GithubProjectGuzzle('adri/random_stuff');
-        $info = $githubProject ->getInfo();
+        $info = $githubProject->getInfo();
 
         $this->assertNull($info, 'Response is not null.');
     }

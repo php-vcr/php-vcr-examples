@@ -30,8 +30,6 @@ class GithubProjectGuzzle
 
     public function getInfo()
     {
-        $info = null;
-
         try {
             $request = $this->client->get('/repos/'. $this->projectName);
             $response = $request->send();
