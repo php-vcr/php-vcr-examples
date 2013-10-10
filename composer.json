@@ -17,6 +17,6 @@
     },
 
     "autoload":     {
-        "classmap": ["guzzle/src/Adri"]
+        "classmap": ["guzzle/src/Adri", "soap/src/Adri"]
     }
 }
