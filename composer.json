@@ -13,10 +13,10 @@
         "php": ">=5.3.3",
         "phpunit/phpunit": "3.8.*@dev",
         "adri/php-vcr": "dev-f-soap",
-        "adri/phpunit-testlistener-vcr": "dev-master"
+        "adri/phpunit-testlistener-vcr": "dev-f-soap"
     },
 
     "autoload":     {
-        "classmap": ["guzzle/src/Adri"]
+        "classmap": ["guzzle/src/Adri", "soap/src/Adri"]
     }
 }
