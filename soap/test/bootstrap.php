@@ -12,9 +12,6 @@ if (!file_exists(__DIR__ . "/../../vendor/autoload.php")) {
 require_once __DIR__ . '/../../vendor/autoload.php';
 
 \VCR\VCR::configure()
-  ->setCassettePath('test/fixtures')
-  ->enableLibraryHooks(array('soap'))
-  ->setWhitelist(array('vendor/guzzle', 'vendor/willdurand', 'vendor/ruflin'))
-  ->setBlacklist(array('vendor/adri/'));
+  ->setCassettePath('test/fixtures');
 
 \VCR\VCR::turnOn();
