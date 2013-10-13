@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "c9a69e2364136bc27903231b393f28c0",
+    "hash": "c157ebd6a9ca17f796a378cd541f9ff2",
     "packages": [
         {
             "name": "beberlei/assert",
