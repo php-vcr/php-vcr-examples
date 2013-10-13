@@ -12,8 +12,8 @@
     "require": {
         "php": ">=5.3.3",
         "phpunit/phpunit": "3.8.*@dev",
-        "adri/php-vcr": "dev-f-soap",
-        "adri/phpunit-testlistener-vcr": "dev-f-soap"
+        "adri/php-vcr": "dev-master",
+        "adri/phpunit-testlistener-vcr": "dev-master"
     },
 
     "autoload":     {
