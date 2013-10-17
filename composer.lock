@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "c157ebd6a9ca17f796a378cd541f9ff2",
+    "hash": "4e534a2082ebbb6fb683bfc197e027dc",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -352,12 +352,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-vcr/php-vcr.git",
-                "reference": "1eb4bedf664a6f9351d2c85edd249dc4864b98d9"
+                "reference": "84604a78ae7d189a88352b0f07de5e11bceb21bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-vcr/php-vcr/zipball/1eb4bedf664a6f9351d2c85edd249dc4864b98d9",
-                "reference": "1eb4bedf664a6f9351d2c85edd249dc4864b98d9",
+                "url": "https://api.github.com/repos/php-vcr/php-vcr/zipball/84604a78ae7d189a88352b0f07de5e11bceb21bd",
+                "reference": "84604a78ae7d189a88352b0f07de5e11bceb21bd",
                 "shasum": ""
             },
             "require": {
@@ -393,7 +393,7 @@
                 }
             ],
             "description": "Record your test suite's HTTP interactions and replay them during future test runs for fast, deterministic, accurate tests.",
-            "time": "2013-10-13 08:29:55"
+            "time": "2013-10-13 09:36:37"
         },
         {
             "name": "php-vcr/phpunit-testlistener-vcr",
@@ -678,12 +678,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "61e996a1a8104a0e23cb0a10e5cf987a4e65e9be"
+                "reference": "0a354eecbfe509d674879bbed29d711d45eee454"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/61e996a1a8104a0e23cb0a10e5cf987a4e65e9be",
-                "reference": "61e996a1a8104a0e23cb0a10e5cf987a4e65e9be",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/0a354eecbfe509d674879bbed29d711d45eee454",
+                "reference": "0a354eecbfe509d674879bbed29d711d45eee454",
                 "shasum": ""
             },
             "require": {
@@ -747,7 +747,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2013-10-12 10:07:14"
+            "time": "2013-10-13 23:42:33"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -962,12 +962,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/EventDispatcher.git",
-                "reference": "9b4fe5757870682eb2251e283228a66d938265a8"
+                "reference": "d51d78b34c1d9dcc384ba48155105fe99284dd67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/9b4fe5757870682eb2251e283228a66d938265a8",
-                "reference": "9b4fe5757870682eb2251e283228a66d938265a8",
+                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/d51d78b34c1d9dcc384ba48155105fe99284dd67",
+                "reference": "d51d78b34c1d9dcc384ba48155105fe99284dd67",
                 "shasum": ""
             },
             "require": {
@@ -1007,7 +1007,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "http://symfony.com",
-            "time": "2013-09-19 09:47:34"
+            "time": "2013-10-17 11:48:11"
         },
         {
             "name": "symfony/yaml",
@@ -1016,12 +1016,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml.git",
-                "reference": "ef4878bcca171ebe7466be0505b85a710818d788"
+                "reference": "1f7cabb841e62ec49615bd965ac780fd994b3f64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/ef4878bcca171ebe7466be0505b85a710818d788",
-                "reference": "ef4878bcca171ebe7466be0505b85a710818d788",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/1f7cabb841e62ec49615bd965ac780fd994b3f64",
+                "reference": "1f7cabb841e62ec49615bd965ac780fd994b3f64",
                 "shasum": ""
             },
             "require": {
@@ -1054,7 +1054,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com",
-            "time": "2013-09-22 18:04:51"
+            "time": "2013-10-17 11:48:11"
         }
     ],
     "packages-dev": [
