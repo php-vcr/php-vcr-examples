@@ -1,9 +1,10 @@
 <?php
 
-namespace VCR;
+namespace VCR\Example;
 
 use Guzzle\Http\Client;
 use Guzzle\Http\Exception\ClientErrorResponseException;
+
 /**
 * Tests Guzzle class.
 */
