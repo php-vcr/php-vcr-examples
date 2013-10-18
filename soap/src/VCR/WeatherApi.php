@@ -1,6 +1,6 @@
 <?php
 
-namespace Adri;
+namespace VCR;
 
 /**
 * Checks cdyne.com for local weather information.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Adri;
+namespace VCR\Example;
 
 use Guzzle\Http\Client;
 use Guzzle\Http\Exception\ClientErrorResponseException;

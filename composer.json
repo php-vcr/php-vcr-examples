@@ -17,6 +17,9 @@
     },
 
     "autoload":     {
-        "classmap": ["guzzle/src/Adri", "soap/src/Adri"]
+        "classmap": [
+            "guzzle/src/VCR",
+            "soap/src/VCR"
+        ]
     }
 }
