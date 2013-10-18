@@ -19,7 +19,9 @@
          verbose="true">
 
     <testsuites>
-        <directory>./test</directory>>
+        <testsuite>
+            <directory>./test</directory>>
+        </testsuite>
     </testsuites>
 
     <listeners>
