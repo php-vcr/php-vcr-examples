@@ -1,6 +1,6 @@
 <?php
 
-namespace VCR;
+namespace VCR\Example\Soap;
 
 /**
 * Checks cdyne.com for local weather information.
