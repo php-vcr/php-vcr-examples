@@ -11,4 +11,7 @@ if (!file_exists(__DIR__ . "/../../vendor/autoload.php")) {
 
 require_once __DIR__ . '/../../vendor/autoload.php';
 
-\VCR\VCR::configure()->setCassettePath('test/fixtures');
+\VCR\VCR::configure()
+  ->setCassettePath('test/fixtures');
+
+\VCR\VCR::turnOn();

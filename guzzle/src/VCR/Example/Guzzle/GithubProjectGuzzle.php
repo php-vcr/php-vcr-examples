@@ -1,6 +1,6 @@
 <?php
 
-namespace Adri;
+namespace VCR\Example\Guzzle;
 
 use Guzzle\Http\Client;
 use Guzzle\Http\Exception\ClientErrorResponseException;
@@ -8,7 +8,7 @@ use Guzzle\Http\Exception\ClientErrorResponseException;
 /**
 * Gets project information from github.
 */
-class GithubProjectGuzzle
+class GithubProject
 {
     const GITHUB_API = 'https://api.github.com/';
 

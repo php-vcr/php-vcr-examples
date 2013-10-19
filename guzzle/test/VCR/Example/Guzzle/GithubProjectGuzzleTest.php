@@ -1,13 +1,14 @@
 <?php
 
-namespace Adri;
+namespace VCR\Example\Guzzle;
 
 use Guzzle\Http\Client;
 use Guzzle\Http\Exception\ClientErrorResponseException;
+
 /**
 * Tests Guzzle class.
 */
-class GithubProjectGuzzleTest extends \PHPUnit_Framework_TestCase
+class GithubProjectTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
@@ -15,12 +16,12 @@ class GithubProjectGuzzleTest extends \PHPUnit_Framework_TestCase
      */
     public function testGithubInfoForExistingProject()
     {
-        $githubProject = new GithubProjectGuzzle('adri/php-vcr');
+        $githubProject = new GithubProject('php-vcr/php-vcr');
         $info = $githubProject->getInfo();
 
         $this->assertTrue(is_array($info), 'Response is not an array.');
         $this->assertArrayHasKey('full_name', $info, "Key 'full_name' not found.");
-        $this->assertEquals('adri/php-vcr', $info['full_name'], "Value for key 'full_name' wrong.");
+        $this->assertEquals('php-vcr/php-vcr', $info['full_name'], "Value for key 'full_name' wrong.");
         $this->assertArrayHasKey('private', $info, "Key 'private' not found.");
         $this->assertFalse($info['private'], "Key 'private' is not false.");
     }
@@ -30,7 +31,7 @@ class GithubProjectGuzzleTest extends \PHPUnit_Framework_TestCase
      */
     public function testGithubInfoForNonExistingProject()
     {
-        $githubProject = new GithubProjectGuzzle('adri/random_stuff');
+        $githubProject = new GithubProject('php-vcr/random_stuff');
         $info = $githubProject->getInfo();
 
         $this->assertNull($info, 'Response is not null.');
