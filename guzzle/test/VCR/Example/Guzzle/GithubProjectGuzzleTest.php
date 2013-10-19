@@ -1,6 +1,6 @@
 <?php
 
-namespace VCR\Example;
+namespace VCR\Example\Guzzle;
 
 use Guzzle\Http\Client;
 use Guzzle\Http\Exception\ClientErrorResponseException;
@@ -8,7 +8,7 @@ use Guzzle\Http\Exception\ClientErrorResponseException;
 /**
 * Tests Guzzle class.
 */
-class GithubProjectGuzzleTest extends \PHPUnit_Framework_TestCase
+class GithubProjectTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
@@ -16,7 +16,7 @@ class GithubProjectGuzzleTest extends \PHPUnit_Framework_TestCase
      */
     public function testGithubInfoForExistingProject()
     {
-        $githubProject = new GithubProjectGuzzle('php-vcr/php-vcr');
+        $githubProject = new GithubProject('php-vcr/php-vcr');
         $info = $githubProject->getInfo();
 
         $this->assertTrue(is_array($info), 'Response is not an array.');
@@ -31,7 +31,7 @@ class GithubProjectGuzzleTest extends \PHPUnit_Framework_TestCase
      */
     public function testGithubInfoForNonExistingProject()
     {
-        $githubProject = new GithubProjectGuzzle('php-vcr/random_stuff');
+        $githubProject = new GithubProject('php-vcr/random_stuff');
         $info = $githubProject->getInfo();
 
         $this->assertNull($info, 'Response is not null.');
