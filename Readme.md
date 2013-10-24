@@ -19,14 +19,14 @@ To run the guzzle example, do this:
 
 ```
 cd guzzle
-../vendor/bin/phpunit
+phpunit
 ```
 
 If you like to record all http requests again, delete the fixture file.
 
 ```
 rm test/fixtures/github_adri_php-vcr.yml
-../vendor/bin/phpunit
+phpunit
 ```
 
 ## Soap
@@ -35,7 +35,7 @@ Soap examples can be run by:
 
 ```
 cd soap
-../vendor/bin/phpunit 
+phpunit
 ```
 
 To record all http requests agian, delete the fixtures:
@@ -43,5 +43,5 @@ To record all http requests agian, delete the fixtures:
 ```
 cd soap
 rm test/fixtures/soap_weather_api_temperature
-../vendor/bin/phpunit 
+phpunit
 ```

@@ -10,8 +10,7 @@
     "minimum-stability": "dev",
 
     "require": {
-        "php": ">=5.3.3",
-        "phpunit/phpunit": "3.8.*@dev",
+        "php": ">=5.3",
         "php-vcr/php-vcr": "dev-master",
         "php-vcr/phpunit-testlistener-vcr": "dev-master"
     },
