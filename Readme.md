@@ -1,6 +1,8 @@
 PHP-VCR Examples
 ================
 
+[![Build Status](https://travis-ci.org/php-vcr/php-vcr-examples.png?branch=master)](https://travis-ci.org/php-vcr/php-vcr-examples)
+
 ## Installation
 
 Assuming you have got [composer](http://getcomposer.org) installed:
