@@ -11,7 +11,7 @@ cd php-vcr-examples/
 composer install
 ```
 
-## Guzzle (using curl_runkit library hook)
+## Guzzle (using curl_rewrite library hook)
 
 To run the guzzle example, do this:
 
