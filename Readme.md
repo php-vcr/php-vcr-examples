@@ -8,7 +8,7 @@ PHP-VCR Examples
 Assuming you have got [composer](http://getcomposer.org) installed:
 
 ```
-git clone git@github.com:adri/php-vcr-examples.git
+git clone git@github.com:php-vcr/php-vcr-examples.git
 cd php-vcr-examples/
 composer install
 ```
