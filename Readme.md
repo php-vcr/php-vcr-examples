@@ -1,6 +1,8 @@
 [DEPRECATED] PHP-VCR Examples
 ================
 
+**You can now see usage examples in the [integration tests](https://github.com/php-vcr/php-vcr/tree/master/tests/integration).**
+
 [![Build Status](https://travis-ci.org/php-vcr/php-vcr-examples.png?branch=master)](https://travis-ci.org/php-vcr/php-vcr-examples)
 
 ## Installation
